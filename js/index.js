@@ -52,12 +52,12 @@ function createTable(index) {
     <td>${index + 1}</td>
     <td>${bookMarks[index].name}</td>
     <td>
-      <button id="visit" class="btn btn-success">
+      <button id="visit" class="btn btn-success text-nowrap">
         <i class="fa-solid fa-eye pe-2"></i>Visit
       </button>
     </td>
     <td>
-      <button id="delete" class="btn btn-danger">
+      <button id="delete" class="btn btn-danger text-nowrap">
         <i class="fa-solid fa-trash-can pe-2"></i>Delete
       </button>
     </td>`;

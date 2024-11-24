@@ -2,6 +2,7 @@ body {
   height: 100vh;
   background-color: #f7ecde;
   font-family: "PT Sans Caption", sans-serif;
+  overflow-x: hidden;
 }
 
 .content {
@@ -104,5 +105,20 @@ h2 {
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+  form {
+    width: 95% !important;
+  }
+  .alert-box {
+    width: 100%;
+  }
+  .customize-alert {
+    width: 100% !important;
   }
 }
